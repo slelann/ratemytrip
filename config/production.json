@@ -1,5 +1,5 @@
 {
-  "url": "http://@@@@@",
+  "url": "http://ratemytrip.herokuapp.com",
   "api": {
     "aws": {
       "key": "@@@@@",
@@ -29,17 +29,17 @@
   },
   "db": {
     "mongo": {
-      "host": "@@@@@",
-      "port": 27017,
-      "username": null,
-      "password": null,
-      "db": "ultimate-seed"
+      "host": "lennon.mongohq.com",
+      "port": 10095,
+      "username": heroku,
+      "password": oM0sf4bNelwco0nNzqqsMgbpQ5wwg3HNV5zM3BA38SZmouNFID-fEgQKFuVAwydGTYA02MdIOKt2q9ZCAroh8g,
+      "db": "app26811572"
     },
     "redis": {
-      "host": "@@@@@",
-      "port": 6379,
-      "password": null,
-      "namespace": "ultimate-seed"
+      "host": "jack.redistogo.com",
+      "port": 10622,
+      "password": ba439ed82b4837548bf90b922ad8fee9,
+      "namespace": "redistogo"
     }
   },
   "log": {
